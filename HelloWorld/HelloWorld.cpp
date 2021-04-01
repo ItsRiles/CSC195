@@ -3,9 +3,29 @@
 
 #include <iostream>
 
+using namespace std;
+
+namespace TheOne {
+    void print()
+    {
+
+    }
+}
+
 int main()
 {
-    std::cout << "Git\n";
+    TheOne::print();
+
+    cout << "Hello World!\n";
+    cout << "Git\n";
+
+    int age = 10;
+    cout << "Enter age: ";
+    cin >> age;
+
+    cout << "Age: " << age << endl;
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
